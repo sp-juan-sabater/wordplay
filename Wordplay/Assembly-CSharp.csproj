@@ -71,6 +71,7 @@
     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\ArrayListAdd.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\ArrayListAddRange.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\ArrayListClear.cs" />
+    <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\ArrayListClearAllProxies.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\ArrayListConcat.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\ArrayListContains.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\ArrayListCopyTo.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\ArrayListGetNext.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\ArrayListGetPrevious.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\ArrayListGetRandom.cs" />
+    <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\ArrayListGetRandomCurvedWeighted.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\ArrayListGetType.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\ArrayListIndexOf.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\ArrayListInsert.cs" />
@@ -95,6 +97,7 @@
     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\ArrayListReverse.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\ArrayListRevertToSnapShot.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\ArrayListSet.cs" />
+    <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\ArrayListSetEventCallbacks.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\ArrayListShuffle.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\ArrayListSort.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\ArrayListSwapItems.cs" />
