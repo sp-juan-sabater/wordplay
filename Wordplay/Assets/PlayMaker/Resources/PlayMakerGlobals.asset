@@ -61,28 +61,28 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      typeName: UnityEngine.Object
+      typeName: UnityEngine.Texture
       value: {fileID: 2800000, guid: 5351399d93de3a14695ac5ff8ac5e89c, type: 3}
     - useVariable: 1
       name: IMG_02
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      typeName: UnityEngine.Object
+      typeName: UnityEngine.Texture
       value: {fileID: 2800000, guid: e5a81848381873e4385970b46ad2e9f6, type: 3}
     - useVariable: 1
       name: IMG_03
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      typeName: UnityEngine.Object
+      typeName: UnityEngine.Texture
       value: {fileID: 2800000, guid: 264f3e8b1c109064bab60725278e341b, type: 3}
     - useVariable: 1
       name: IMG_05
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      typeName: UnityEngine.Object
+      typeName: UnityEngine.Texture
       value: {fileID: 2800000, guid: ea9692b9edcacd341824e894f2460b91, type: 3}
     - useVariable: 1
       name: IMG_06
@@ -90,76 +90,76 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       typeName: UnityEngine.Object
-      value: {fileID: 0}
+      value: {fileID: 2800000, guid: 3877c408811db0c46bb4f05d0cb84019, type: 3}
     - useVariable: 1
       name: IMG_07
       tooltip: 
       showInInspector: 0
       networkSync: 0
       typeName: UnityEngine.Object
-      value: {fileID: 0}
+      value: {fileID: 2800000, guid: a98fc13f2a56d5b4784b16835b4866b6, type: 3}
     - useVariable: 1
       name: IMG_08
       tooltip: 
       showInInspector: 0
       networkSync: 0
       typeName: UnityEngine.Object
-      value: {fileID: 0}
+      value: {fileID: 2800000, guid: c87e286f93916f04ca3460f78a35d3ef, type: 3}
     - useVariable: 1
       name: IMG_09
       tooltip: 
       showInInspector: 0
       networkSync: 0
       typeName: UnityEngine.Object
-      value: {fileID: 0}
+      value: {fileID: 2800000, guid: 5b0b52cade5fb4248a45c2a02e405e12, type: 3}
     - useVariable: 1
       name: IMG_10
       tooltip: 
       showInInspector: 0
       networkSync: 0
       typeName: UnityEngine.Object
-      value: {fileID: 0}
+      value: {fileID: 2800000, guid: 3397aa2592a6e8e4f877880b56dba549, type: 3}
     - useVariable: 1
       name: IMG_11
       tooltip: 
       showInInspector: 0
       networkSync: 0
       typeName: UnityEngine.Object
-      value: {fileID: 0}
+      value: {fileID: 2800000, guid: 6119f5451b0c65e468800c06ff92e846, type: 3}
     - useVariable: 1
       name: IMG_12
       tooltip: 
       showInInspector: 0
       networkSync: 0
       typeName: UnityEngine.Object
-      value: {fileID: 0}
+      value: {fileID: 2800000, guid: 816db5342b5b6764585e77145926c572, type: 3}
     - useVariable: 1
       name: IMG_13
       tooltip: 
       showInInspector: 0
       networkSync: 0
       typeName: UnityEngine.Object
-      value: {fileID: 0}
+      value: {fileID: 2800000, guid: af447d54a531fe348b161359334091a5, type: 3}
     - useVariable: 1
       name: IMG_14
       tooltip: 
       showInInspector: 0
       networkSync: 0
       typeName: UnityEngine.Object
-      value: {fileID: 0}
+      value: {fileID: 2800000, guid: 79ecbf399bfa7d04e82d20e6333e8505, type: 3}
     - useVariable: 1
       name: IMG_15
       tooltip: 
       showInInspector: 0
       networkSync: 0
       typeName: UnityEngine.Object
-      value: {fileID: 0}
+      value: {fileID: 2800000, guid: 983a9a26b59471c479e95aec970f91e8, type: 3}
     - useVariable: 1
       name: IMG_04
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      typeName: UnityEngine.Object
+      typeName: UnityEngine.Texture
       value: {fileID: 2800000, guid: b246aabbff6d4af41866f2c4ce02c013, type: 3}
     arrayVariables:
     - useVariable: 1
