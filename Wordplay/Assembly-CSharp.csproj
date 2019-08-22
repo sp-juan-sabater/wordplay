@@ -2,9 +2,8 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
-    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
-    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
-    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+    <CscToolPath>/Applications/Unity/Hub/Editor/2019.2.2f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
+    <CscToolExe>unity_csc.sh</CscToolExe>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -1163,9 +1162,6 @@
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
- <Reference Include="com.unity.multiplayer-hlapi.Editor">
- <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
@@ -1181,12 +1177,6 @@
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
- <Reference Include="com.unity.multiplayer-weaver.Editor">
- <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
@@ -1196,23 +1186,32 @@
  <Reference Include="Unity.2D.Tilemap.Editor">
  <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
- </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
  <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.multiplayer-hlapi.Editor">
+ <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.multiplayer-weaver.Editor">
+ <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+ <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+ <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-hlapi.Runtime">
  <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
@@ -1400,6 +1399,9 @@
  <Reference Include="ConditionalExpression">
  <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Assets/PlayMaker/ConditionalExpression.dll</HintPath>
  </Reference>
+ <Reference Include="Newtonsoft.Json.Net20">
+ <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Assets/PlayMaker DataMaker/Json/Plugins/Newtonsoft.Json.Net20.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
@@ -1408,9 +1410,6 @@
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
  <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json.Net20">
- <HintPath>/Users/dariuszkrok/Projects/wordplay/Wordplay/Assets/PlayMaker DataMaker/Json/Plugins/Newtonsoft.Json.Net20.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Hub/Editor/2019.2.2f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
