@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\fsm.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\__internal__\ArrayListActions.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\__internal__\CollectionsActions.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\__internal__\HashTableActions.cs" />
