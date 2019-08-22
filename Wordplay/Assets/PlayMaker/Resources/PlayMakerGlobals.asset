@@ -55,11 +55,129 @@ MonoBehaviour:
       value: {fileID: 0}
     objectVariables: []
     materialVariables: []
-    textureVariables: []
-    arrayVariables: []
+    textureVariables:
+    - useVariable: 1
+      name: IMG_01
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Object
+      value: {fileID: 2800000, guid: 5351399d93de3a14695ac5ff8ac5e89c, type: 3}
+    - useVariable: 1
+      name: IMG_02
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Object
+      value: {fileID: 2800000, guid: e5a81848381873e4385970b46ad2e9f6, type: 3}
+    - useVariable: 1
+      name: IMG_03
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Object
+      value: {fileID: 2800000, guid: 264f3e8b1c109064bab60725278e341b, type: 3}
+    - useVariable: 1
+      name: IMG_05
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Object
+      value: {fileID: 2800000, guid: ea9692b9edcacd341824e894f2460b91, type: 3}
+    - useVariable: 1
+      name: IMG_06
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Object
+      value: {fileID: 0}
+    - useVariable: 1
+      name: IMG_07
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Object
+      value: {fileID: 0}
+    - useVariable: 1
+      name: IMG_08
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Object
+      value: {fileID: 0}
+    - useVariable: 1
+      name: IMG_09
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Object
+      value: {fileID: 0}
+    - useVariable: 1
+      name: IMG_10
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Object
+      value: {fileID: 0}
+    - useVariable: 1
+      name: IMG_11
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Object
+      value: {fileID: 0}
+    - useVariable: 1
+      name: IMG_12
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Object
+      value: {fileID: 0}
+    - useVariable: 1
+      name: IMG_13
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Object
+      value: {fileID: 0}
+    - useVariable: 1
+      name: IMG_14
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Object
+      value: {fileID: 0}
+    - useVariable: 1
+      name: IMG_15
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Object
+      value: {fileID: 0}
+    - useVariable: 1
+      name: IMG_04
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Object
+      value: {fileID: 2800000, guid: b246aabbff6d4af41866f2c4ce02c013, type: 3}
+    arrayVariables:
+    - useVariable: 1
+      name: Sprites
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 10
+      objectTypeName: UnityEngine.Texture
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences: []
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000
+    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - newWord
