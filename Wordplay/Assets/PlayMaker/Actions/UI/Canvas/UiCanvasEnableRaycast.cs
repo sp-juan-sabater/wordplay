@@ -36,7 +36,6 @@ namespace HutongGames.PlayMaker.Actions
 	    public override void OnPreprocess()
 	    {
             //Debug.Log("OnPreprocess");
-	        if (gameObject == null) gameObject = new FsmOwnerDefault();
             var go = Fsm.GetOwnerDefaultTarget(gameObject);
 	        if (UpdateCacheAddComponent(go))
 	        {

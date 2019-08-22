@@ -10,11 +10,11 @@ namespace HutongGames.PlayMaker.Actions
 	{
 		[RequiredField]
 		[CheckForComponent(typeof(UnityEngine.UI.Image))]
-		[Tooltip("The GameObject with the Image UI component.")]
+		[Tooltip("The GameObject with the Image ui component.")]
 		public FsmOwnerDefault gameObject;
 
 		[RequiredField]
-		[Tooltip("The source sprite of the UI Image component.")]
+		[Tooltip("The source sprite of the UGui Image component.")]
 		[ObjectType(typeof(Sprite))]
 		public FsmObject sprite;
 
@@ -49,7 +49,7 @@ namespace HutongGames.PlayMaker.Actions
 		{
 			if (image==null) return;
 
-			image.sprite = sprite.Value as Sprite;
+			image.sprite = (Sprite)sprite.Value;
 		}
 
 		public override void OnExit()

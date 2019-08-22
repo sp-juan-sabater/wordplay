@@ -43,7 +43,6 @@ namespace HutongGames.PlayMaker.Actions
 
         public override void OnPreprocess()
         {
-            if (gameObject == null) gameObject = new FsmOwnerDefault();
             if (gameObject.OwnerOption == OwnerDefaultOption.UseOwner)
             {
                 switch (collision)

@@ -1,4 +1,4 @@
-// (c) Copyright HutongGames. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
 
 using UnityEngine;
 
@@ -15,8 +15,7 @@ namespace HutongGames.PlayMaker.Actions
 		public FsmVector3 position;
 
 		[CompoundArray("Audio Clips", "Audio Clip", "Weight")]
-		[ObjectType(typeof(AudioClip))]
-		public FsmObject[] audioClips;
+		public AudioClip[] audioClips;
 		[HasFloatSlider(0, 1)]
 		public FsmFloat[] weights;
 		[HasFloatSlider(0, 1)]
@@ -32,7 +31,7 @@ namespace HutongGames.PlayMaker.Actions
 		{
 			gameObject = null;
 			position = new FsmVector3 { UseVariable = true };
-			audioClips = new FsmObject[3];
+			audioClips = new AudioClip[3];
 			weights = new FsmFloat[] {1,1,1};
 			volume = 1;
             noRepeat = false;
@@ -65,7 +64,7 @@ namespace HutongGames.PlayMaker.Actions
 
             if (randomIndex != -1)
 			{
-				var clip = audioClips[randomIndex].Value as AudioClip;
+				AudioClip clip = audioClips[randomIndex];
 				if (clip != null)
 				{
 					if (!position.IsNone)

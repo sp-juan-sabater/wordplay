@@ -21,10 +21,9 @@ namespace HutongGames.PlayMaker.Actions
 		[UIHint(UIHint.Variable)]
 		public FsmFloat storeValue;
 		public bool everyFrame;
-
-        private GameObject goLastFrame;
-        private string fsmNameLastFrame;
-        private PlayMakerFSM fsm;
+		
+		GameObject goLastFrame;
+		PlayMakerFSM fsm;
 		
 		public override void Reset()
 		{
@@ -46,19 +45,19 @@ namespace HutongGames.PlayMaker.Actions
 			DoGetFsmFloat();
 		}
 
-        private void DoGetFsmFloat()
+		void DoGetFsmFloat()
 		{
 			if (storeValue.IsNone) return;
 
 			GameObject go = Fsm.GetOwnerDefaultTarget(gameObject);
 			if (go == null) return;
 
-            if (go != goLastFrame || fsmName.Value != fsmNameLastFrame)
-            {
-                goLastFrame = go;
-                fsmNameLastFrame = fsmName.Value;
-                // only get the fsm component if go or fsm name has changed
+			// only get the fsm component if go has changed
+	
+			if (go != goLastFrame)
+			{
 				fsm = ActionHelpers.GetGameObjectFsm(go, fsmName.Value);
+				goLastFrame = go;
 			}
 			
 			if (fsm == null) return;

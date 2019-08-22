@@ -27,7 +27,6 @@ namespace HutongGames.PlayMaker.Actions
         public bool everyFrame;
 
 	    private GameObject goLastFrame;
-        private string fsmNameLastFrame;
 	    private PlayMakerFSM fsm;
 		
 		public override void Reset()
@@ -59,11 +58,11 @@ namespace HutongGames.PlayMaker.Actions
 			var go = Fsm.GetOwnerDefaultTarget(gameObject);
 			if (go == null) return;
 			
-            if (go != goLastFrame || fsmName.Value != fsmNameLastFrame)
-            {
-                goLastFrame = go;
-                fsmNameLastFrame = fsmName.Value;
-                // only get the fsm component if go or fsm name has changed
+			// only get the fsm component if go has changed
+
+			if (go != goLastFrame)
+			{
+				goLastFrame = go;
 				fsm = ActionHelpers.GetGameObjectFsm(go, fsmName.Value);
 			}			
 			
