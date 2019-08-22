@@ -161,6 +161,7 @@ namespace HutongGames.PlayMakerEditor
             if (string.IsNullOrEmpty(playmakerPath))
                 return false;
             var playmakerDirectory = Path.GetDirectoryName(playmakerPath);
+            playmakerDirectory = playmakerDirectory.Replace('\\', '/');
             return !playmakerDirectory.Equals(PlaymakerPluginDirectory, StringComparison.OrdinalIgnoreCase);
         }
 
