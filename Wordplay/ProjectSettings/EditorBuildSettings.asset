@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WP_Test_2.unity
     guid: 6fc08ae42dba6134e80ff1eb0a07a8a6
+  - enabled: 1
+    path: Assets/Scenes/WP_Voting.unity
+    guid: 13cba8088532f844ba01ac4b02b4e99d
   m_configObjects: {}
