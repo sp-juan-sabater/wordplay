@@ -321,7 +321,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 197
-        y: 161
+        y: 167
         width: 105
         height: 16
       isBreakpoint: 0
@@ -582,6 +582,9 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
+    - name: newSmallWord
+      isSystemEvent: 0
+      isGlobal: 1
     - name: newWord
       isSystemEvent: 0
       isGlobal: 1
@@ -645,7 +648,7 @@ MonoBehaviour:
     RestartOnEnable: 1
     EnableDebugFlow: 0
     EnableBreakpoints: 1
-    editorFlags: 1
+    editorFlags: 7
     activeStateName: State 1
     mouseEvents: 0
     handleLevelLoaded: 0
