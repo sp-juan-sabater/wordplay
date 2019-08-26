@@ -185,6 +185,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WordGame (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4631568334370652563, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4631568334370652558, guid: 2cf069f87615bde4da20412b968062d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -289,11 +294,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334370652563, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cf069f87615bde4da20412b968062d0, type: 3}
@@ -3480,6 +3480,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WordGame (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4631568334370652563, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4631568334370652558, guid: 2cf069f87615bde4da20412b968062d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3584,11 +3589,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334370652563, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cf069f87615bde4da20412b968062d0, type: 3}
@@ -4411,6 +4411,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: WordGame (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4631568334370652558, guid: 2cf069f87615bde4da20412b968062d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4515,31 +4540,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cf069f87615bde4da20412b968062d0, type: 3}
@@ -6099,6 +6099,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: WordGame
       objectReference: {fileID: 0}
+    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4631568334370652558, guid: 2cf069f87615bde4da20412b968062d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6204,31 +6229,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cf069f87615bde4da20412b968062d0, type: 3}
 --- !u!224 &801445747 stripped
@@ -6248,6 +6248,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WordGame (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631568334370652563, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4631568334370652558, guid: 2cf069f87615bde4da20412b968062d0,
         type: 3}
@@ -6353,11 +6358,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334370652563, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cf069f87615bde4da20412b968062d0, type: 3}
@@ -6625,6 +6625,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WordGame (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4631568334370652563, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4631568334370652558, guid: 2cf069f87615bde4da20412b968062d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6729,11 +6734,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334370652563, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cf069f87615bde4da20412b968062d0, type: 3}
@@ -8722,6 +8722,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WordGame (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4631568334370652563, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4631568334370652558, guid: 2cf069f87615bde4da20412b968062d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8827,11 +8832,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 4631568334370652563, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cf069f87615bde4da20412b968062d0, type: 3}
 --- !u!224 &1391558147 stripped
@@ -8918,7 +8918,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -60, y: -60}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1544307836
 MonoBehaviour:
@@ -9011,6 +9011,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WordGame (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4631568334370652558, guid: 2cf069f87615bde4da20412b968062d0,
         type: 3}
@@ -9116,31 +9141,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cf069f87615bde4da20412b968062d0, type: 3}
@@ -10672,7 +10672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 0.62352943}
+  m_Color: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 0.8}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -10784,6 +10784,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WordGame (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4631568334370652563, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4631568334370652558, guid: 2cf069f87615bde4da20412b968062d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10889,11 +10894,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 4631568334370652563, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cf069f87615bde4da20412b968062d0, type: 3}
 --- !u!224 &2029370907 stripped
@@ -10913,6 +10913,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WordGame (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631568334370652563, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4631568334370652558, guid: 2cf069f87615bde4da20412b968062d0,
         type: 3}
@@ -11018,11 +11023,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334370652563, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cf069f87615bde4da20412b968062d0, type: 3}
@@ -12226,6 +12226,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: WordGame
       objectReference: {fileID: 0}
+    - target: {fileID: 4631568334370652563, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4631568334370652558, guid: 2cf069f87615bde4da20412b968062d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12330,36 +12360,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334370652563, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631568334088834753, guid: 2cf069f87615bde4da20412b968062d0,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cf069f87615bde4da20412b968062d0, type: 3}
