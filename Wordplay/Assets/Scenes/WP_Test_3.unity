@@ -4214,7 +4214,7 @@ MonoBehaviour:
           value: '@id'
         fsmObjectParams: []
         fsmVarParams:
-        - variableName: 
+        - variableName: newSmallWord
           objectType: UnityEngine.Object
           useVariable: 1
           type: 4
@@ -4517,7 +4517,7 @@ MonoBehaviour:
           value: wordArraySmall
         fsmObjectParams: []
         fsmVarParams:
-        - variableName: 
+        - variableName: newSmallWord
           objectType: UnityEngine.Object
           useVariable: 1
           type: 4
@@ -4652,7 +4652,7 @@ MonoBehaviour:
     events:
     - name: newSmallWord
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     globalTransitions: []
     variables:
       floatVariables: []
@@ -6263,7 +6263,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -232
+          value: -132
         - useVariable: 1
           name: 
           tooltip: 
