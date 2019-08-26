@@ -57,6 +57,76 @@ MonoBehaviour:
     materialVariables: []
     textureVariables:
     - useVariable: 1
+      name: IMGLarge_01
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Texture
+      value: {fileID: 2800000, guid: 0a6ac5b41a223d54fa08d1167ae38ba7, type: 3}
+    - useVariable: 1
+      name: IMGLarge_02
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Texture
+      value: {fileID: 2800000, guid: 116ea1408139e6a4eb567de288bf7564, type: 3}
+    - useVariable: 1
+      name: IMGLarge_03
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Texture
+      value: {fileID: 2800000, guid: 994cc85546aa6af46bd01e3bb6d78775, type: 3}
+    - useVariable: 1
+      name: IMGLarge_04
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Texture
+      value: {fileID: 2800000, guid: 57079813d7060c940bf636a703e2a47e, type: 3}
+    - useVariable: 1
+      name: IMGLarge_05
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Texture
+      value: {fileID: 2800000, guid: c613eb3a17a80f24abd7643b762dd49f, type: 3}
+    - useVariable: 1
+      name: IMGLarge_06
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Texture
+      value: {fileID: 2800000, guid: 66481e12006b07f41a457d27e5e15276, type: 3}
+    - useVariable: 1
+      name: IMGLarge_07
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Texture
+      value: {fileID: 2800000, guid: 6db5ed4e075929b4e9305e79924d6c76, type: 3}
+    - useVariable: 1
+      name: IMGLarge_08
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Texture
+      value: {fileID: 2800000, guid: de132b8c39c7e084aac966fa6e134236, type: 3}
+    - useVariable: 1
+      name: IMGLarge_09
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Texture
+      value: {fileID: 2800000, guid: ef220ba35bb54554a9e5bf49288eb25d, type: 3}
+    - useVariable: 1
+      name: IMGLarge_10
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Texture
+      value: {fileID: 2800000, guid: 221f09b520977924899b62305b645481, type: 3}
+    - useVariable: 1
       name: IMG_01
       tooltip: 
       showInInspector: 0
@@ -77,6 +147,13 @@ MonoBehaviour:
       networkSync: 0
       typeName: UnityEngine.Texture
       value: {fileID: 2800000, guid: 264f3e8b1c109064bab60725278e341b, type: 3}
+    - useVariable: 1
+      name: IMG_04
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Texture
+      value: {fileID: 2800000, guid: b246aabbff6d4af41866f2c4ce02c013, type: 3}
     - useVariable: 1
       name: IMG_05
       tooltip: 
@@ -155,87 +232,80 @@ MonoBehaviour:
       typeName: UnityEngine.Texture
       value: {fileID: 2800000, guid: 983a9a26b59471c479e95aec970f91e8, type: 3}
     - useVariable: 1
-      name: IMG_04
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      typeName: UnityEngine.Texture
-      value: {fileID: 2800000, guid: b246aabbff6d4af41866f2c4ce02c013, type: 3}
-    - useVariable: 1
-      name: IMGLarge_01
+      name: IMG_Wide_01
       tooltip: 
       showInInspector: 0
       networkSync: 0
       typeName: UnityEngine.Object
-      value: {fileID: 2800000, guid: 0a6ac5b41a223d54fa08d1167ae38ba7, type: 3}
+      value: {fileID: 2800000, guid: 1564c0a6a6eb2674d909f55386a7e3e7, type: 3}
     - useVariable: 1
-      name: IMGLarge_02
+      name: IMG_Wide_02
       tooltip: 
       showInInspector: 0
       networkSync: 0
       typeName: UnityEngine.Object
-      value: {fileID: 2800000, guid: 116ea1408139e6a4eb567de288bf7564, type: 3}
+      value: {fileID: 2800000, guid: 631b3ca24291aa14bb4fbe962b01fa27, type: 3}
     - useVariable: 1
-      name: IMGLarge_03
+      name: IMG_Wide_03
       tooltip: 
       showInInspector: 0
       networkSync: 0
       typeName: UnityEngine.Object
-      value: {fileID: 2800000, guid: 994cc85546aa6af46bd01e3bb6d78775, type: 3}
+      value: {fileID: 2800000, guid: 12549fbf67659dc4c9f45166fe05263f, type: 3}
     - useVariable: 1
-      name: IMGLarge_04
+      name: IMG_Wide_04
       tooltip: 
       showInInspector: 0
       networkSync: 0
       typeName: UnityEngine.Object
-      value: {fileID: 2800000, guid: 57079813d7060c940bf636a703e2a47e, type: 3}
+      value: {fileID: 2800000, guid: c337ae56793f3c140a82578c1ae97f3c, type: 3}
     - useVariable: 1
-      name: IMGLarge_05
+      name: IMG_Wide_05
       tooltip: 
       showInInspector: 0
       networkSync: 0
       typeName: UnityEngine.Object
-      value: {fileID: 2800000, guid: c613eb3a17a80f24abd7643b762dd49f, type: 3}
+      value: {fileID: 2800000, guid: 630f6b20cc718f34bad86ba3ce816a1d, type: 3}
     - useVariable: 1
-      name: IMGLarge_06
+      name: IMG_Wide_06
       tooltip: 
       showInInspector: 0
       networkSync: 0
       typeName: UnityEngine.Object
-      value: {fileID: 2800000, guid: 66481e12006b07f41a457d27e5e15276, type: 3}
+      value: {fileID: 2800000, guid: 72eb7c22dbd5a984ca6d2b2608c78d2f, type: 3}
     - useVariable: 1
-      name: IMGLarge_07
+      name: IMG_Wide_07
       tooltip: 
       showInInspector: 0
       networkSync: 0
       typeName: UnityEngine.Object
-      value: {fileID: 2800000, guid: 6db5ed4e075929b4e9305e79924d6c76, type: 3}
+      value: {fileID: 2800000, guid: 819a3beae1a9ff740b89fe483ee1f972, type: 3}
     - useVariable: 1
-      name: IMGLarge_08
+      name: IMG_Wide_08
       tooltip: 
       showInInspector: 0
       networkSync: 0
       typeName: UnityEngine.Object
-      value: {fileID: 2800000, guid: de132b8c39c7e084aac966fa6e134236, type: 3}
+      value: {fileID: 2800000, guid: 345a92cb770ab9142b4be22b9591aa2d, type: 3}
     - useVariable: 1
-      name: IMGLarge_09
+      name: IMG_Wide_09
       tooltip: 
       showInInspector: 0
       networkSync: 0
       typeName: UnityEngine.Object
-      value: {fileID: 2800000, guid: ef220ba35bb54554a9e5bf49288eb25d, type: 3}
+      value: {fileID: 2800000, guid: 02f0277f81b16fb49bb3071da45c7ddf, type: 3}
     - useVariable: 1
-      name: IMGLarge_10
+      name: IMG_Wide_10
       tooltip: 
       showInInspector: 0
       networkSync: 0
       typeName: UnityEngine.Object
-      value: {fileID: 2800000, guid: 221f09b520977924899b62305b645481, type: 3}
+      value: {fileID: 2800000, guid: 6aa573ec294bf954688edc3cdea685ce, type: 3}
     arrayVariables: []
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - newWord
   - Change Color
