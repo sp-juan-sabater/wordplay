@@ -151,7 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previewOnGUI: 1
   enableGUILayout: 1
-  drawStateLabels: 0
+  drawStateLabels: 1
   enableStateLabelsInBuilds: 0
   GUITextureStateLabels: 0
   GUITextStateLabels: 0
@@ -1667,7 +1667,7 @@ MonoBehaviour:
           value: '@id'
         fsmObjectParams: []
         fsmVarParams:
-        - variableName: smallWord
+        - variableName: 
           objectType: UnityEngine.Object
           useVariable: 1
           type: 4
@@ -1970,7 +1970,7 @@ MonoBehaviour:
           value: wordArraySmall
         fsmObjectParams: []
         fsmVarParams:
-        - variableName: smallWord
+        - variableName: 
           objectType: UnityEngine.Object
           useVariable: 1
           type: 4
@@ -2105,7 +2105,7 @@ MonoBehaviour:
     events:
     - name: newSmallWord
       isSystemEvent: 0
-      isGlobal: 1
+      isGlobal: 0
     globalTransitions: []
     variables:
       floatVariables: []
