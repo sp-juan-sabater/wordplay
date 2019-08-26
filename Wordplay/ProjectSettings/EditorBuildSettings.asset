@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WP_Entries.unity
     guid: 6202db16995633746936f589b0ebf2ba
+  - enabled: 1
+    path: Assets/Scenes/WP_YourStories.unity
+    guid: b3b4e887ae1f553479282ec512d0f317
   m_configObjects: {}
