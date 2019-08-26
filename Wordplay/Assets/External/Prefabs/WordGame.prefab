@@ -169,12 +169,12 @@ GameObject:
   - component: {fileID: 4631568334370652558}
   - component: {fileID: 4631568334370652560}
   - component: {fileID: 4631568334370652561}
+  - component: {fileID: 8150212948921088086}
   - component: {fileID: 4631568334370652563}
   - component: {fileID: 6729946917014184999}
-  - component: {fileID: 8150212948921088086}
   m_Layer: 5
   m_Name: WordGame
-  m_TagString: Untagged
+  m_TagString: Word
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -237,6 +237,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8150212948921088086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4631568334370652559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.23311895, g: 0.22792807, b: 0.24528301, a: 0.5}
+  m_EffectDistance: {x: 4, y: -4}
+  m_UseGraphicAlpha: 1
 --- !u!114 &4631568334370652563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -322,7 +337,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 197
         y: 167
-        width: 105
+        width: 100
         height: 16
       isBreakpoint: 0
       isSequence: 0
@@ -584,7 +599,7 @@ MonoBehaviour:
       isGlobal: 0
     - name: newSmallWord
       isSystemEvent: 0
-      isGlobal: 1
+      isGlobal: 0
     - name: newWord
       isSystemEvent: 0
       isGlobal: 1
@@ -690,18 +705,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab7334629e84bcd4884f3576f69b06a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8150212948921088086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4631568334370652559}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.23311895, g: 0.22792807, b: 0.24528301, a: 0.5}
-  m_EffectDistance: {x: 4, y: -4}
-  m_UseGraphicAlpha: 1
