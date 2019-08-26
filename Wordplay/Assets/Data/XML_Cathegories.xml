@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cathegory>
+  <tag id="drama" />
+  <tag id="comedy" />
+  <tag id="tragedy" />
+  <tag id="action" />
+  <tag id="adventure" />
+  <tag id="crime" />
+  <tag id="epic" />
+  <tag id="horror" />
+  <tag id="sci fi" />
+  <tag id="war" />
+  <tag id="western" />
+  <tag id="surreal" />
+  <tag id="heroic" />
+  <tag id="heroe" />
+  <tag id="villain" />
+  <tag id="dark" />
+  <tag id="romantic" />
+  <tag id="positive" />
+  <tag id="inspiring" />
+  <tag id="sad" />
+  <tag id="fun" />
+  <tag id="young" />
+  <tag id="old" />
+  <tag id="tough" />
+  <tag id="magic" />
+  <tag id="honor" />
+  <tag id="legend" />
+  <tag id="lies" />
+</cathegory>
