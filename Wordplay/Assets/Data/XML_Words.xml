@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <note>
-  <word id="a" />
+  <word id="confident" />
   <word id="about" />
   <word id="above" />
   <word id="after" />
   <word id="air" />
-  <word id="at" />
-  <word id="and" />
+  <word id="athletic" />
+  <word id="fuzzy" />
   <word id="animal" />
   <word id="are" />
-  <word id="as" />
+  <word id="equipped" />
   <word id="ask" />
-  <word id="at" />
+  <word id="wine" />
   <word id="bad" />
   <word id="be" />
   <word id="beautiful" />
@@ -22,7 +22,7 @@
   <word id="blue" />
   <word id="bring" />
   <word id="but" />
-  <word id="by" />
+  <word id="power" />
   <word id="can" />
   <word id="care" />
   <word id="change" />
@@ -59,7 +59,7 @@
   <word id="Hard" />
   <word id="Has" />
   <word id="Have" />
-  <word id="He" />
+  <word id="Hero" />
   <word id="Her" />
   <word id="Here" />
   <word id="Him" />
@@ -77,33 +77,33 @@
   <word id="Laugh" />
   <word id="Know" />
   <word id="it" />
-  <word id="is" />
-  <word id="ing" />
+  <word id="wine" />
+  <word id="love" />
   <word id="incubate" />
-  <word id="in" />
+  <word id="face" />
   <word id="imagine" />
-  <word id="if" />
+  <word id="chest" />
   <word id="Ice" />
   <word id="I" />
   <word id="Out" />
   <word id="Our" />
   <word id="or" />
   <word id="Only" />
-  <word id="on" />
+  <word id="lip" />
   <word id="Off" />
-  <word id="Of" />
+  <word id="sex" />
   <word id="occasion" />
-  <word id="no" />
+  <word id="lip" />
   <word id="night" />
   <word id="never" />
-  <word id="my" />
+  <word id="smooth" />
   <word id="must" />
   <word id="murmur" />
   <word id="morning" />
   <word id="more" />
   <word id="moon" />
   <word id="month" />
-  <word id="me" />
+  <word id="upper" />
   <word id="make" />
   <word id="lye" />
   <word id="love" />
@@ -115,5 +115,11 @@
   <word id="Rain" />
   <word id="present" />
   <word id="pageant" />
+  <word id="grow" />
+  <word id="delicious" />
+  <word id="delight" />
+  <word id="vibes" />
+  <word id="masculine" />
+  <word id="symbol" />
 
 </note>
