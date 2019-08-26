@@ -602,7 +602,7 @@ MonoBehaviour:
       isGlobal: 0
     - name: newSmallWord
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     - name: newWord
       isSystemEvent: 0
       isGlobal: 1
