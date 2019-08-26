@@ -9,11 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/WP_Main.unity
     guid: cd8fc4767de483043b6e2d0f8d901f2a
   - enabled: 1
-    path: Assets/Scenes/WP_Test.unity
-    guid: 839544ee696d18d45b1f7a268426a9db
-  - enabled: 1
-    path: Assets/Scenes/WP_Test_2.unity
-    guid: 6fc08ae42dba6134e80ff1eb0a07a8a6
+    path: Assets/Scenes/WP_Test_3.unity
+    guid: df61b75c237f40847a587e01776d8866
   - enabled: 1
     path: Assets/Scenes/WP_Voting.unity
     guid: 13cba8088532f844ba01ac4b02b4e99d
